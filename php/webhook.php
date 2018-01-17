@@ -11,10 +11,8 @@ $fpW = fopen('webhookArray.txt', "a+");
 	fclose($fpW);
 
 if (isset($update["result"]["action"])) {
-    $fp = fopen('sagar.txt', "a+");
-	
-	fwrite($fp, $update["result"]["action"]);
-	
+    $fp = fopen('sagar.txt', "a+");	
+	fwrite($fp, $update["result"]["action"]);	
 	fclose($fp);
 }
 
