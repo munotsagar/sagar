@@ -1,5 +1,5 @@
 <?php
-$update_response = file_get_contents("php://input");
+$update_response = $_POST['payload'];
 $fpW = fopen('webhookNew.txt', "a+");	
 	fwrite($fpW, $update_response);	
 	fclose($fpW);
