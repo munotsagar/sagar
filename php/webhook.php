@@ -6,6 +6,10 @@ $fpW = fopen('webhookNew.txt', "a+");
 
 $update = json_decode($update_response, true);
 
+$fpW = fopen('webhookArray.txt', "a+");	
+	fwrite($fpW, $update);	
+	fclose($fpW);
+
 if (isset($update["result"]["action"])) {
     $fp = fopen('sagar.txt', "a+");
 	
