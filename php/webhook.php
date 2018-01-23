@@ -21,7 +21,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
     $jsondata = json_decode($arraydata,true);
 
     //var_dump($jsondata);
-    $gitref = $jsondata['ref']; 
+    $gitref = $jsondata['ref'];
+    
     //echo $gitref . PHP_EOL;
 
     $fp = fopen('sagar.txt', "a+");	
