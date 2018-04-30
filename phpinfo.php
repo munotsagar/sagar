@@ -1,5 +1,5 @@
 <?php
-// PHP Info Method Call
+// PHP Info Method Call 
 echo phpinfo();
 
 ?>
