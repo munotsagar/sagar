@@ -2,6 +2,6 @@
 
 // PHP Info Method Call
 
-ech phpinfo();
+echo phpinfo();
 
 ?>
