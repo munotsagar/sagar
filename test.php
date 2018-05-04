@@ -1,5 +1,5 @@
 <?php
 
-echo "Test version";
+echo "Test version v1.0.1";
 
 ?>
